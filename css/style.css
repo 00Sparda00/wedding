@@ -1840,4 +1840,12 @@ form label {
   opacity: 0;
 }
 
+@media screen and (max-width: 480px) {
+  #fh5co-header {
+    background-position: center center !important;
+    background-size: cover !important;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
