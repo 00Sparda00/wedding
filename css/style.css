@@ -300,6 +300,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover {
   height: 900px;
   background-size: cover;
+  background-position: center center !important;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
@@ -1843,7 +1844,7 @@ form label {
   opacity: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (max-width: 1024px) {
   #fh5co-header {
     background-position: center center !important;
     background-size: cover !important;
@@ -1876,7 +1877,7 @@ form label {
 }
 
 /* ==== Responsive for Mobile Screens ==== */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .couple-half .groom {
     width: 250px !important;
     padding: 15px;
