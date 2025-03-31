@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+  background: #fdf6f9;
 }
 
 #page {
@@ -1876,9 +1876,9 @@ form label {
 }
 
 /* ==== Responsive for Mobile Screens ==== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .couple-half .groom {
-    width: 300px !important;
+    width: 250px !important;
     padding: 15px;
   }
 
