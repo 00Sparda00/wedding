@@ -64,7 +64,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #fff;
   font-family: 'Mitr', sans-serif !important;
   /* font-family: "Work Sans", Arial, sans-serif; */
   font-weight: 400;
@@ -273,6 +273,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   font-size: 40px;
+
 }
 .fh5co-video .overlay {
   position: absolute;
@@ -423,7 +424,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
@@ -436,11 +437,12 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap span {
   display: block;
   color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
@@ -1886,6 +1888,17 @@ form label {
   .couple-half .groom img {
     width: 100%;
   }
+}
+
+.event-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* ช่องไฟระหว่าง icon กับข้อความ */
+}
+
+.event-inline span {
+  font-family: 'Mitr', sans-serif;
+  font-size: 18px;
 }
 
 
