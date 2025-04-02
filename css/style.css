@@ -1893,12 +1893,12 @@ form label {
 .event-inline {
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* ช่องไฟระหว่าง icon กับข้อความ */
+  gap: 10px; /* ช่องไฟระหว่าง icon กับข้อความ */
 }
 
 .event-inline span {
-  font-family: 'Mitr', sans-serif;
-  font-size: 18px;
+  font-family: 'Mitr', sans-serif; 
+  font-size: 15px !important;
 }
 
 
