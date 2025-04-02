@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
-  width: 50%;
+  width: 100%;
   float: left;
   margin-bottom: 30px;
 }
@@ -1894,6 +1894,15 @@ form label {
   display: inline-flex;
   align-items: left ;
   gap: 10px; /* ช่องไฟระหว่าง icon กับข้อความ */
+}
+.event-time {
+  font-family: 'Mitr', sans-serif; 
+  font-variant-numeric: tabular-nums !important;
+  min-width: 60px; /* บังคับให้ตัวเลขกว้างเท่า ๆ กัน */
+  text-align: left;
+}
+.event-name {
+  font-family: 'Mitr', sans-serif;
 }
 
 .event-inline span {
