@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .fh5co-heading span {
   color: rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 2px;
   font-weight: 600;
 }
@@ -1892,7 +1892,7 @@ form label {
 
 .event-inline {
   display: inline-flex;
-  align-items: center;
+  align-items: left ;
   gap: 10px; /* ช่องไฟระหว่าง icon กับข้อความ */
 }
 
