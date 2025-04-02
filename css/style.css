@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
-  padding: 30px;
+  padding: 20px;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 #fh5co-counter .event-wrap .event-col,
 #fh5co-event .event-wrap .event-col {
@@ -1898,7 +1898,7 @@ form label {
 .event-time {
   font-family: 'Mitr', sans-serif; 
   font-variant-numeric: tabular-nums !important;
-  min-width: 60px; /* บังคับให้ตัวเลขกว้างเท่า ๆ กัน */
+  min-width: 70px; /* บังคับให้ตัวเลขกว้างเท่า ๆ กัน */
   text-align: left;
 }
 .event-name {
