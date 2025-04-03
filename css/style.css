@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: white; /*rgba(0, 0, 0, 0.4)*/;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -1879,7 +1879,7 @@ form label {
 }
 
 /* ==== Responsive for Mobile Screens ==== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .couple-half .groom {
     width: 250px !important;
     padding: 15px;
@@ -1909,6 +1909,18 @@ form label {
   font-family: 'Mitr', sans-serif; 
   font-size: 15px !important;
 }
+
+.parent-block h5 {
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.parent-and h5 {
+  /* font-weight: bold; */
+  font-size: 15px;
+  margin-top: 12px;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
