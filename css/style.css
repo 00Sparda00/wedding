@@ -1084,8 +1084,10 @@ form label {
   height: 150px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
-  height: 150px;
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
+  border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1094,11 +1096,11 @@ form label {
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
     width: 100%;
-    height: 140px;
+    height: 200px;
   }
   .couple-half .groom img, .couple-half .bride img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
   }
 }
@@ -1854,41 +1856,9 @@ form label {
 }
 
 /* ==== Custom Groom Box Styling (Vertical Portrait Style) ==== */
-.couple-half .groom {
-  float: none !important;
-  border-radius: 16px !important;
-  width: 300px !important; /* ปรับให้แคบแนวตั้ง */
-  background-color: #fdf6f9;
-  padding: 20px;
-  border: 2px solid #ffffff;
-  margin: 0 auto;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.couple-half .groom img {
-  width: 100%;
-  height: auto;
-  border: 3px solid #ffffff;
-  border-radius: 8px;
-  display: block;
-  margin-bottom: 10px;
-}
 
 /* ==== Responsive for Mobile Screens ==== */
-@media screen and (max-width: 1024px) {
-  .couple-half .groom {
-    width: 250px !important;
-    padding: 15px;
-  }
-
-  .couple-half .groom img {
-    width: 100%;
-  }
-}
 
 .event-inline {
   display: inline-flex;
