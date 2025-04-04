@@ -727,7 +727,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li a .case-studies-summary h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 #fh5co-gallery-list li.one-third {
@@ -1029,11 +1029,21 @@ form label {
   width: 90%;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
+
 @media screen and (max-width: 768px) {
   .couple-wrap {
+    margin-bottom: 100px;
     width: 100%;
+    margin-bottom: 20px;
   }
+}
+
+
+.heart {
+  margin: 20px 0;
 }
 
 .heart {
@@ -1046,7 +1056,7 @@ form label {
 }
 .heart i {
   font-size: 20px;
-  background: #fff;
+  background: #000;
   padding: 20px;
   color: #F14E95;
   -webkit-border-radius: 50%;
@@ -1189,7 +1199,7 @@ form label {
   line-height: 1.5;
   font-weight: bold;
   color: #F14E95;
-  font-family: "Sacramento", Arial, serif;
+  /* font-family: "Sacramento", Arial, serif; */
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
