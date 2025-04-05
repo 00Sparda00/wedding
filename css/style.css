@@ -1004,7 +1004,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1901,6 +1901,44 @@ form label {
   margin-top: 12px;
 }
 
+/* ซ่อน layout iPad โดย default */
+#fh5co-event-ipad {
+  display: none;
+}
+/* แสดง layout iPad เฉพาะขนาด iPad (แนวตั้ง/แนวนอน) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #fh5co-event {
+    display: none;
+  }
+  #fh5co-event-ipad {
+    display: block !important;
+    margin-top: 50px !important;
+  }
+}
+#fh5co-event-ipad .couple-ipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+#fh5co-event-ipad .person {
+  text-align: center;
+}
+
+#fh5co-event-ipad .person img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#fh5co-event-ipad .heart i {
+  font-size: 40px;
+  color: #F14E95;
+}
 
 
 /*# sourceMappingURL=style.css.map */
