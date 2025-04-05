@@ -1912,7 +1912,7 @@ form label {
   }
   #fh5co-event-ipad {
     display: block !important;
-    margin-top: 50px !important;
+    padding: 50px !important;
   }
 }
 #fh5co-event-ipad .couple-ipad {
