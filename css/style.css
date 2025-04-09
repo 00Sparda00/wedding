@@ -1858,7 +1858,7 @@ form label {
   opacity: 0;
 }
 
-@media screen and (max-width: 480px) and (max-width: 1024px) {
+@media screen and (max-width: 480px) and (max-width: 2024px) {
   #fh5co-header {
     background-position: center center !important;
     background-size: cover !important;
@@ -1906,7 +1906,7 @@ form label {
   display: none;
 }
 /* แสดง layout iPad เฉพาะขนาด iPad (แนวตั้ง/แนวนอน) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 2024px) {
   #fh5co-event {
     display: none;
   }
