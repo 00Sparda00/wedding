@@ -131,6 +131,10 @@
                       ></i
                       >Save the date
                     </a>
+                    <!-- ปุ่ม–ลูกศรบอกให้เลื่อนลง -->
+                    <a href="#fh5co-event" class="scroll-indicator">
+                      <i class="fa-solid fa-angle-down"></i>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -688,6 +692,16 @@
         month: d.getMonth() + 1,
         day: d.getDate(),
         enableUtc: false,
+      });
+    </script>
+    <script>
+      // ซ่อนลูกศรเมื่อ scroll เกิน 100px
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 100) {
+          document.body.classList.add("scrolled");
+        } else {
+          document.body.classList.remove("scrolled");
+        }
       });
     </script>
   </body>
