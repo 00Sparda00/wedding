@@ -503,13 +503,13 @@
           <!-- แถวสำหรับรูป QR -->
           <div class="row animate-box">
             <div class="col-md-6 col-md-offset-3 text-center qr-wrapper">
-              <!-- กดที่รูปเพื่อเปิดไฟล์ใหญ่ในแท็บใหม่ -->
-              <a href="images/qr.jpg" target="_blank">
+              <!-- คลิกเปิด lightbox -->
+              <a href="images/qr.jpg" class="image-popup">
                 <img
                   src="images/qr.jpg"
                   alt="PromptPay QR"
                   class="img-responsive center-block"
-                  style="max-width: 280px"
+                  style="max-width: 280px; border-radius: 16px"
                 />
               </a>
             </div>
@@ -610,6 +610,20 @@
         } else {
           document.body.classList.remove("scrolled");
         }
+      });
+    </script>
+    <script>
+      $(function () {
+        $(".image-popup").magnificPopup({
+          type: "image",
+          closeOnContentClick: true,
+          fixedContentPos: true,
+          mainClass: "mfp-fade", // เอฟเฟ็กต์เฟดอิน
+          removalDelay: 300, // หน่วงจังหวะเฟดเอาต์
+          image: {
+            verticalFit: true, // จัดให้อยู่กลางจอพอดี
+          },
+        });
       });
     </script>
   </body>
