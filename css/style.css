@@ -14,6 +14,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* font-family: "Work Sans", Arial, sans-serif; */
   font-family: "Mitr", sans-serif;
@@ -222,7 +226,6 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -783,13 +786,11 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   color: #f14e95;
   padding-left: 10px;
   padding-right: 10px;
@@ -1264,7 +1265,6 @@ form label {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
   width: 100px;
   height: 100px;
 }
@@ -2032,6 +2032,49 @@ form label {
 /* เมื่อเลื่อนหน้าออกจาก header แล้วซ่อนลูกศร */
 body.scrolled .scroll-indicator {
   display: none;
+}
+
+/* ---------- Bottom Navigation ---------- */
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 64px;
+  background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+.bottom-nav .nav-item {
+  flex: 1 1 25%;
+  text-align: center;
+  color: #828282;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: 0.25s;
+}
+.bottom-nav .nav-item i {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.bottom-nav .nav-item:hover,
+.bottom-nav .nav-item:focus {
+  color: #f14e95;
+}
+
+/* ถ้าไม่ต้องการแสดงบนจอใหญ่ให้ซ่อนไว้ */
+@media screen and (min-width: 992px) {
+  .bottom-nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
