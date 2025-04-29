@@ -14,6 +14,9 @@
 * 	Template Style 
 *
 * ======================================================= */
+:root {
+  --bottom-nav-h: 64px; /* เปลี่ยนทีเดียวได้ทุกที่ */
+}
 html {
   scroll-behavior: smooth;
 }
@@ -2075,6 +2078,11 @@ body.scrolled .scroll-indicator {
   .bottom-nav {
     display: none;
   }
+}
+
+#fh5co-started {
+  /* id สถานที่ที่คุณเพิ่งเพิ่ม */
+  padding-bottom: calc(var(--bottom-nav-h) + 20px); /* กันไว้ 20px เผื่อ ๆ */
 }
 
 /*# sourceMappingURL=style.css.map */
